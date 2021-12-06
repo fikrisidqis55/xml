@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T01:09:43.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" version="15.9.1" etag="mOyMkMpFkP26xPKfxCGq" type="github"><diagram id="RKUCGh_AST2buh_r-x6B">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-06T01:14:39.042Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="yIieDA0xXtmc9DsRerBq" version="15.9.1" type="github">
+  <diagram id="RKUCGh_AST2buh_r-x6B" name="Page-1">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VxkrZ26y71T43wqJVsGo-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VxkrZ26y71T43wqJVsGo-1" target="VxkrZ26y71T43wqJVsGo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VxkrZ26y71T43wqJVsGo-1" value="Mulai" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="140" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VxkrZ26y71T43wqJVsGo-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VxkrZ26y71T43wqJVsGo-2" target="VxkrZ26y71T43wqJVsGo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VxkrZ26y71T43wqJVsGo-2" value="input saldo_awal_bulan, total_penarikan, total_setoran" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="260" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VxkrZ26y71T43wqJVsGo-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VxkrZ26y71T43wqJVsGo-3" target="VxkrZ26y71T43wqJVsGo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VxkrZ26y71T43wqJVsGo-3" value="total_transaksi = total_penarikan + total_setoran pajak = 0.01 * total_transaksi saldo_akhir = saldo_awal_bulan - (total_transaksi + pajak)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="400" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VxkrZ26y71T43wqJVsGo-4" value="Selesai" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="670" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VxkrZ26y71T43wqJVsGo-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VxkrZ26y71T43wqJVsGo-5" target="VxkrZ26y71T43wqJVsGo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VxkrZ26y71T43wqJVsGo-5" value="output saldo_akhir" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="530" width="200" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
